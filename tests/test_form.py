@@ -22,5 +22,6 @@ def test_form_submission():
         "arguments[0].click();",
         submit_btn
     )
+    print("Feature branch change")
 
     driver.quit()
